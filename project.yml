@@ -1,0 +1,14 @@
+name: AdvancedProject
+options:
+  minimumXcodeGenVersion: 2.40.0
+targets:
+  AdvancedProject:
+    platform: iOS
+    type: application
+    deploymentTarget: 13.0
+    sources:
+      - AdvancedProject/
+    settings:
+      base:
+        INFOPLIST_FILE: "AdvancedProject/App/Info.plist"
+        PRODUCT_BUNDLE_IDENTIFIER: id.rbennum.AdvancedProject
